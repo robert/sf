@@ -146,8 +146,8 @@
         '<div class="prose">' + prose(paras) +
           '<p class="continued">' + (isLast ? 'The End.' : 'To be continued…') + '</p></div>' +
         (state.edition === 'oscar' ?
-          '<figure class="map"><a class="map-link" href="images/map-' + pad(c.day) + '.jpg" target="_blank" rel="noopener"><img src="images/map-' + pad(c.day) + '.jpg" width="1800" height="1125" loading="lazy" alt="Oscar’s watercolour map of San Francisco for day ' + c.day + ', showing the route taken so far."></a>' +
-          '<figcaption>Oscar’s map: where we went on Day ' + c.day + '. Tap it to see it bigger.</figcaption></figure>' : '') +
+          '<figure class="map"><button type="button" class="map-link" id="open-map" aria-label="Show Oscar’s map full screen"><img src="images/map-' + pad(c.day) + '.jpg" width="1800" height="1125" loading="lazy" alt="Oscar’s watercolour map of San Francisco for day ' + c.day + ', showing the route taken so far."></button>' +
+          '<figcaption>Oscar’s map: where we went on Day ' + c.day + '. Tap it to open it full screen.</figcaption></figure>' : '') +
         '<div class="after">' +
           '<section class="puzzle" aria-labelledby="pz-title">' +
             '<div class="puzzle-head"><span>The Grand Magnolia Hotel</span><span>Room 1937</span></div>' +
@@ -156,7 +156,6 @@
             '<button type="button" class="btn btn-answer" id="show-answer" aria-expanded="false" aria-controls="answer">Show the answer</button>' +
             '<p class="puzzle-a" id="answer" hidden><b>Answer:</b> ' + inline(v.puzzle.a) + '</p>' +
           '</section>' +
-          '<div class="actions"><button type="button" class="btn btn-read" id="mark-read" aria-pressed="' + (state.read[c.day] ? 'true' : 'false') + '">' + readLabel(c.day) + '</button></div>' +
           '<nav class="pager" aria-label="Other chapters">' +
             '<button type="button" data-day="' + (prev ? prev.day : '') + '"' + (prev ? '' : ' disabled') + '><small>← Day ' + (prev ? prev.day : '') + '</small><span>' + (prev ? esc(prev.title) : '') + '</span></button>' +
             '<button type="button" data-day="' + (next ? next.day : '') + '"' + (next ? '' : ' disabled') + '><small>Day ' + (next ? next.day : '') + ' →</small><span>' + (next ? (isOpen(next) ? esc(next.title) : 'Opens ' + niceDate(next.date, { month: undefined, day: undefined })) : '') + '</span></button>' +
@@ -164,6 +163,7 @@
         '</div>';
     }
     main.innerHTML = html;
+    if (isOpen(c) && !state.read[day]) { state.read[day] = true; saveRead(state.read); }
     renderShelf();
     try { history.replaceState(null, '', '#day-' + day); } catch (e) {}
     if (focus) {
@@ -171,7 +171,6 @@
       main.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
     }
   }
-  function readLabel(day) { return state.read[day] ? '★ We’ve read this one' : '☆ We read tonight’s chapter'; }
 
   /* ---------- events ---------- */
   document.querySelector('.edition').addEventListener('click', function (e) {
@@ -196,22 +195,48 @@
   main.addEventListener('click', function (e) {
     var t = e.target.closest('button');
     if (!t) return;
-    if (t.id === 'show-answer') {
+    if (t.id === 'open-map') {
+      openViewer('images/map-' + pad(state.current) + '.jpg', t.querySelector('img').alt);
+    } else if (t.id === 'show-answer') {
       var a = document.getElementById('answer');
       a.hidden = !a.hidden;
       t.setAttribute('aria-expanded', String(!a.hidden));
       t.textContent = a.hidden ? 'Show the answer' : 'Hide the answer';
-    } else if (t.id === 'mark-read') {
-      var d = state.current;
-      if (state.read[d]) delete state.read[d]; else state.read[d] = true;
-      saveRead(state.read);
-      t.setAttribute('aria-pressed', String(!!state.read[d]));
-      t.textContent = readLabel(d);
-      renderShelf();
     } else if (t.hasAttribute('data-day') && t.getAttribute('data-day')) {
       renderChapter(+t.getAttribute('data-day'), true);
     }
   });
+
+  /* full-screen map viewer: pinch or tap to zoom, tap outside or Close to leave */
+  var viewer = document.getElementById('viewer'), viewerImg = document.getElementById('viewer-img'), viewerFrom = null;
+  function openViewer(src, alt) {
+    viewerFrom = document.activeElement;
+    viewerImg.src = src; viewerImg.alt = alt;
+    viewer.classList.remove('zoomed');
+    viewer.hidden = false;
+    document.body.style.overflow = 'hidden';
+    document.getElementById('viewer-close').focus();
+  }
+  function closeViewer() {
+    viewer.hidden = true;
+    document.body.style.overflow = '';
+    if (viewerFrom) viewerFrom.focus();
+  }
+  document.getElementById('viewer-close').addEventListener('click', closeViewer);
+  viewerImg.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var zoomed = viewer.classList.toggle('zoomed');
+    if (zoomed) {
+      var r = viewerImg.getBoundingClientRect();
+      var fx = (e.clientX - r.left) / r.width, fy = (e.clientY - r.top) / r.height;
+      requestAnimationFrame(function () {
+        var sc = document.getElementById('viewer-scroll');
+        sc.scrollLeft = fx * sc.scrollWidth - sc.clientWidth / 2;
+        sc.scrollTop = fy * sc.scrollHeight - sc.clientHeight / 2;
+      });
+    }
+  });
+  viewer.addEventListener('click', function (e) { if (e.target === viewer || e.target.id === 'viewer-scroll') closeViewer(); });
 
   /* grown-ups' corner: press and hold the little key */
   var key = document.getElementById('grownups-key'), sheet = document.getElementById('grownups'), timer = null;
@@ -251,7 +276,10 @@
   function closeSheet() { sheet.hidden = true; key.focus(); }
   document.getElementById('gu-close').addEventListener('click', closeSheet);
   sheet.addEventListener('click', function (e) { if (e.target === sheet) closeSheet(); });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !sheet.hidden) closeSheet(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    if (!viewer.hidden) closeViewer(); else if (!sheet.hidden) closeSheet();
+  });
 
   /* ---------- start ---------- */
   renderEdition();

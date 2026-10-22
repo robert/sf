@@ -230,7 +230,33 @@ button { font: inherit; color: inherit; }
 /* Oscar's map */
 .map { max-width: 980px; margin: 40px auto 0; }
 .map figcaption { max-width: 38rem; margin: 6px auto 0; font-family: var(--hand); font-size: 1.15rem; color: var(--ink-soft); }
-.map-link { display: block; border-radius: 8px; }
+.map-link { display: block; width: 100%; padding: 0; border: 0; background: none; cursor: zoom-in; border-radius: 8px; }
+
+.viewer {
+  position: fixed; inset: 0; z-index: 30;
+  background: #182032;
+}
+.viewer-scroll {
+  position: absolute; inset: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex; align-items: center; justify-content: center;
+  padding: max(56px, env(safe-area-inset-top, 0px)) max(12px, env(safe-area-inset-right, 0px)) max(56px, env(safe-area-inset-bottom, 0px)) max(12px, env(safe-area-inset-left, 0px));
+}
+.viewer-scroll img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; cursor: zoom-in; }
+.viewer.zoomed .viewer-scroll { display: block; }
+.viewer.zoomed .viewer-scroll img { max-width: none; max-height: none; width: 2000px; cursor: zoom-out; }
+.viewer-hint {
+  position: absolute; left: 0; right: 0; bottom: max(14px, env(safe-area-inset-bottom, 0px));
+  margin: 0; text-align: center; pointer-events: none;
+  font-family: var(--hand); font-size: 1.05rem; color: #dfe4ee;
+}
+.viewer-close {
+  position: absolute;
+  top: max(12px, env(safe-area-inset-top, 0px));
+  right: max(12px, env(safe-area-inset-right, 0px));
+  background: var(--paper); color: var(--ink); border-color: var(--paper);
+}
 
 /* ---------- after the story ---------- */
 .after { margin-top: 40px; display: grid; gap: 28px; }
@@ -264,7 +290,6 @@ button { font: inherit; color: inherit; }
 .puzzle-a { margin: 12px 0 0; color: var(--orange); }
 .puzzle-a b { color: var(--ink); }
 
-.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
   min-height: 48px;
@@ -281,7 +306,6 @@ button { font: inherit; color: inherit; }
 }
 .btn-quiet { background: transparent; color: var(--ink); }
 .btn-answer { margin-top: 14px; background: transparent; color: var(--orange); border-color: var(--orange); }
-.btn-read[aria-pressed="true"] { background: var(--gold); border-color: var(--gold); color: #fffdf7; }
 
 .pager {
   display: grid;

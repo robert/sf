@@ -10,8 +10,8 @@ window.CHAPTERS = [
     "“Oh dear, oh dear, oh dear! I’ve got a meeting at nine!”",
     "Early, early, in the dark, Daddy tiptoed downstairs. **CREEEAK!**",
     "Mummy yawned in her dressing gown. “Shh! The boys are fast asleep. Later they’re off to Granny’s for a sleepover. Oscar planned it all!”",
-    "Rosie pointed at the suitcases. “Ossa! Sam-sam!”",
-    "“Silly billy,” yawned Victoria. “The boys are upstairs in bed.”",
+    "Rosie pointed at the suitcases and squealed. “BA! BA! BAAAA!”",
+    "“Silly billy,” yawned Mummy. “The boys are upstairs in bed.”",
     "Daddy lifted the suitcases. **HUFF! PUFF!** “Goodness! Did I pack a rhinoceros?”",
     "**WHOOOOSH!** went the aeroplane.",
     "In San Francisco, a taxi zoomed up a steep, steep hill. **VRRRRM!** Daddy held on to his hat!",
@@ -44,12 +44,12 @@ window.CHAPTERS = [
     "Daddy was not, by nature, an adventurous man. He was the sort of man who checked the front door was locked three times, then a fourth time to be sure, and then lay awake wondering whether the fourth time had counted. So when his boss, Brenda, informed him that he must fly to San Francisco for ten whole days of meetings, Daddy said, “Oh dear, oh dear, oh dear,” which was what Daddy said about most things.",
     "He packed with tremendous care. Seven shirts, ironed. Eleven pairs of socks (one spare, in case of emergencies, although what sort of emergency requires a spare sock he could not have told you). One laptop. One toothbrush. One tie printed with tiny computers, which he considered extremely dashing. “And I’ve got a meeting at nine on Saturday,” he fretted, to nobody in particular. “Oh dear. Oh dear, oh dear.”",
     "His taxi to the airport was booked for five o’clock in the morning, an hour so early that even the birds had not yet got up. Daddy crept downstairs in the dark, carrying his shoes so as not to wake anybody, and found the two suitcases waiting by the front door, exactly where he had left them, zipped up tight.",
-    "He was not quite quick enough. Mummy came yawning down after him in her dressing gown, carrying Rosie, who had woken up specially, because babies have a sixth sense for the precise moment when everybody would like them to be asleep. Behind them came Victoria, holding Daddy’s passport, because Victoria always knew where everything was, even at five in the morning.",
+    "He was not quite quick enough. Mummy came yawning down after him in her dressing gown, carrying Rosie, who had woken up specially, because babies have a sixth sense for the precise moment when everybody would like them to be asleep. In her other hand was Daddy’s passport, because Mummy always knew where everything was, even at five in the morning.",
     "“Shall I wake the boys to say goodbye?” whispered Daddy.",
     "“Don’t you dare,” whispered Mummy. “They’re fast asleep. I heard them giggling until all hours. And later they’re off to Granny’s for a sleepover — Oscar organised the whole thing himself. Very grown-up.”",
     "“He gets that from me,” said Daddy proudly.",
-    "Rosie removed her fingers from her mouth, pointed directly at the suitcases, and announced, with perfect clarity, “OSSA! SAM-SAM!”",
-    "“No, silly billy,” said Victoria kindly. “Ossa and Sam-sam are upstairs in bed. Those are Daddy’s suitcases.” Rosie gave her the look that babies give grown-ups who have got something very badly wrong.",
+    "Rosie removed her fingers from her mouth, pointed directly at the suitcases, and announced, at tremendous volume, “BA! BA! BAAAA!” Rosie could not say a single word yet, but she could point like a weathervane in a gale.",
+    "“Yes, darling, suitcases,” said Mummy kindly. “Daddy’s suitcases. The boys are upstairs in bed.” Rosie gave her the look that babies give grown-ups who have got something very badly wrong.",
     "He picked up the first suitcase and very nearly put his back out. The second was, if anything, heavier. “Good heavens,” he wheezed. “What on earth did I pack? A rhinoceros?”",
     "~",
     "The aeroplane flew all day long, up over the cold top of the world and down the other side. Daddy watched three films and worried through all of them.",
@@ -101,7 +101,7 @@ window.CHAPTERS = [
     "There was Mummy! And Victoria, holding Rosie!",
     "“Hello, darling,” said Mummy. “The boys are at Granny’s. Oscar left me a note.”",
     "“Lovely,” squeaked Daddy. “Just me here. All alone.”",
-    "Rosie pointed and shouted: “Ossa! Sam-sam! Ossa! Ossa! Sam-sam!”",
+    "Rosie pointed at the curtains and squealed: “BA! GOO! BA! BA! GOO!”",
     "Uh-oh. Out of the curtains poked… the colander!",
     "“Is that a *colander*?” asked Mummy.",
     "“It’s… a lampshade,” said Daddy. “A fancy American lampshade.”",
@@ -126,8 +126,8 @@ window.CHAPTERS = [
     "And it was red-orange… exactly the colour of the bridge."
    ],
    "puzzle": {
-    "q": "Rosie shouted: “Ossa! Sam-sam! Ossa! Ossa! Sam-sam!” How many times did she shout “Ossa”? (Try shouting it with her!)",
-    "a": "Three times! Ossa (one), Ossa (two), Ossa (three) — and “Sam-sam” two times."
+    "q": "Rosie squealed: “BA! GOO! BA! BA! GOO!” How many times did she squeal “BA”? (Try squealing it with her!)",
+    "a": "Three times! BA (one), BA (two), BA (three) — and “GOO” two times."
    }
   },
   "oscar": {
@@ -144,8 +144,8 @@ window.CHAPTERS = [
     "“Hello, darling!” said Mummy. “How was the flight? Everything’s fine here. The boys are at Granny’s for their sleepover — Oscar left me the sweetest note on the kitchen table. *Gone to Granny’s. Don’t worry. We will look after everything.*” She smiled. “Wasn’t that grown-up of him?”",
     "Under the bed, Oscar closed his eyes.",
     "“Very grown-up,” said Daddy. “Ha! Ha ha. And it’s just me here. All on my own. Completely alone. Nobody else at all.” He was aware that he was saying too many words, but he could not seem to stop them coming out.",
-    "Rosie, meanwhile, had stopped eating her banana. She was staring past Daddy’s shoulder with the fierce concentration of a very small detective. Then she flung out one sticky finger and cried, “OSSA!”",
-    "“SAM-SAM!” said Rosie. “OSSA! OSSA! SAM-SAM!” And she drew breath to continue — “OSSA! OSSA! OSSA! SAM-SAM!” — getting louder and more indignant with every word, because nobody was *listening*.",
+    "Rosie, meanwhile, had stopped eating her banana. She was staring past Daddy’s shoulder with the fierce concentration of a very small detective. Then she flung out one sticky finger, pointing straight at the curtains, and shrieked, “BA!”",
+    "“GOO!” said Rosie. “BA! BA! GOO!” And she drew breath to continue — “BA! BA! BA! GOO!” — getting louder and more indignant with every babble and jabbing her finger at the curtains, because nobody was *listening*.",
     "And then, behind Daddy, the velvet curtains gave a small wobble, and out from between them, at roughly the height of a four-year-old’s head, poked a gleaming metal dome full of little holes.",
     "Mummy leaned towards her screen. “Darling,” she said slowly, “is that a *colander*?”",
     "Daddy did not turn round. He did not need to. “That? Oh, that. That’s… a lampshade,” he said. “A very fancy American lampshade. They’re all the rage here.”",
@@ -176,8 +176,8 @@ window.CHAPTERS = [
     "And it was painted a deep, glowing red-orange — exactly the colour of the Golden Gate Bridge."
    ],
    "puzzle": {
-    "q": "On the video call, Rosie shouted: “OSSA! SAM-SAM! OSSA! OSSA! SAM-SAM! OSSA! OSSA! OSSA! SAM-SAM!”\nIf Rosie had kept going in exactly the same pattern, what would her 20th word have been?\nAnd how many times would she have shouted “OSSA” by then?",
-    "a": "Her 20th word would be “SAM-SAM”, and she would have shouted “OSSA” 15 times. Each time she adds one more “OSSA” before a “SAM-SAM”, so the groups are 2, 3, 4, 5 and 6 words long — exactly 20 words — and word 20 is the “SAM-SAM” ending the fifth group, after 1 + 2 + 3 + 4 + 5 = 15 “OSSA”s."
+    "q": "On the video call, Rosie babbled: “BA! GOO! BA! BA! GOO! BA! BA! BA! GOO!”\nIf Rosie had kept going in exactly the same pattern, what would her 20th sound have been?\nAnd how many times would she have shouted “BA” by then?",
+    "a": "Her 20th sound would be “GOO”, and she would have shouted “BA” 15 times. Each time she adds one more “BA” before a “GOO”, so the groups are 2, 3, 4, 5 and 6 sounds long — exactly 20 sounds — and sound 20 is the “GOO” ending the fifth group, after 1 + 2 + 3 + 4 + 5 = 15 “BA”s."
    }
   }
  },
@@ -373,7 +373,7 @@ window.CHAPTERS = [
     "She found the order slip: *Professor P. Pinch, Collector of Famous Things. Deliver to: Pier 39, the old rowing boat.*",
     "“A professor!” gasped Daddy. “Oh dear, oh dear, oh DEAR!”",
     "**BRRRING!** It was Victoria, holding Rosie.",
-    "“OSSA! SAM-SAM!” squealed Rosie, waving.",
+    "“BAAAA!” squealed Rosie, waving her spoon.",
     "“Hello, boys!” said Victoria. “Mummy asks: are you looking after Daddy?”",
     "“YES!” shouted the boys. “We’re on a CLUE!”",
     "“Go, team!” cheered Victoria.",
@@ -417,7 +417,7 @@ window.CHAPTERS = [
     "“A PROFESSOR,” breathed Daddy. “Oh dear, oh dear, oh *dear*. Professors are terribly clever.”",
     "~",
     "Just then Daddy’s phone went **BRRRING!** It was a video call, and there on the screen was Victoria, wearing her usual expression of someone who has seen everything twice and been surprised by none of it. Rosie was on her hip, chewing a wooden spoon.",
-    "Rosie took the spoon out of her mouth, spotted her brothers, and shrieked with delight: “OSSA! SAM-SAM!” She waved the spoon so hard that a blob of something orange flew off it.",
+    "Rosie took the spoon out of her mouth, spotted her brothers, and shrieked with delight: “BAAAA! GOO!” She waved the spoon so hard that a blob of something orange flew off it.",
     "“Hello, boys!” said Victoria. “Your mother is in the bath and has sent me with a message. The message is: *Are you looking after Daddy?*”",
     "“YES!” shouted Oscar and Samuel together, so loudly that the roast ducks next door very nearly flew away. “We’re on a CLUE!”",
     "“Excellent,” said Victoria, as if boys on clues in Chinatown were a perfectly ordinary Monday. “Go, team.”",

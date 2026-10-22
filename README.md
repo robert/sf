@@ -16,7 +16,7 @@ One chapter opens each night at midnight UK time, from Thursday 22 October to Su
 
 Press and hold the little key at the very bottom of the page for about 1.5 seconds. From there you can open every chapter on that device (to read ahead or catch up), go back to one chapter a night, or clear the reading stars.
 
-Reading stars are saved in a cookie (and localStorage) on each device. They never stop anyone reading the next chapter.
+A chapter gets its star as soon as it is opened. Stars are saved in a cookie (and localStorage) on each device, and they never stop anyone reading the next chapter.
 
 ## Files
 
