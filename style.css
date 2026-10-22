@@ -215,6 +215,9 @@ button { font: inherit; color: inherit; }
 .ed-samuel .prose p + p { margin-top: .7em; }
 .ed-samuel .prose strong { font-size: 1.08em; }
 
+.spot { margin: 1.1em auto; max-width: 600px; }
+.spot img { width: 100%; }
+@media (min-width: 900px) { .ed-samuel .spot { margin-left: -4rem; margin-right: -4rem; max-width: none; } }
 .break { display: flex; justify-content: center; padding: 1.4em 0; color: var(--orange); }
 .break svg { width: 120px; height: 26px; }
 

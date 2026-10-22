@@ -85,7 +85,46 @@
       .replace(/\*([^*]+)\*/g, '<em>$1</em>');
   }
   var ORNAMENT = '<div class="break" aria-hidden="true"><svg viewBox="0 0 120 26"><path d="M6 20h108" stroke="currentColor" stroke-width="1.6"/><path d="M34 22V4M42 22V4M78 22V4M86 22V4M33 7h10M77 7h10" stroke="currentColor" stroke-width="2.2"/><path d="M6 18Q20 16 38 5Q60 26 82 5Q100 16 114 18" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></div>';
-  function prose(paras) {
+  // Samuel's book: two spot paintings per chapter, each placed after the paragraph it illustrates
+  var SPOTS = {
+    1: [[/HUFF|rhinoceros|heavy/i, 'Daddy puffing and panting between two very heavy suitcases.'], [/aeroplane|plane|WHOO/i, 'An aeroplane whooshing through the clouds.']],
+    2: [[/Rosie/, 'Mummy, and Victoria holding Rosie, on the laptop screen.'], [/\bbolt\b/i, 'Oscar pointing at a tiny orange bolt glinting on the windowsill.']],
+    3: [[/Brenda|meeting/i, 'Samuel on Oscar’s shoulders inside Daddy’s long coat and hat, talking to Brenda on the laptop.'], [/1937|magnif/i, 'A magnifying glass over a tiny bolt stamped GG 1937.']],
+    4: [[/Lou|bell|DING/i, 'Big Lou with his walrus moustache, ringing the cable car bell.'], [/bag|CRINKLE/i, 'Samuel finding a crumpled fortune cookie bag on the seat.']],
+    5: [[/fortune|CRACK/i, 'A fortune cookie cracking open with a little paper fortune inside.'], [/lantern|Chinatown|cookie/i, 'Samuel under a string of red lanterns, with cookies at his feet.']],
+    6: [[/Admiral|sea lion/i, 'The Admiral, a huge sea lion in a little navy hat, barking at Samuel.'], [/gone|rope|Alcatraz|island/i, 'An empty wooden post with a frayed rope, where the boat should be.']],
+    7: [[/clap|presentation|picture|drawing/i, 'The tall “Daddy” in the long coat, showing a picture of a dinosaur with a helmet and sword.'], [/row|moon|boat/i, 'Daddy rowing a little boat across the dark water under the moon.']],
+    8: [[/\bdoor\b/i, 'A purple secret door in a brick wall, with the numbers 1937.'], [/cushion/i, 'The tiny Golden Gate Bridge on a red velvet cushion.']],
+    9: [[/cat/i, 'Tiny Samuel with his sword, face to face with a huge ginger cat.'], [/switch/i, 'Three switches: a red square, a blue triangle and a green circle.']],
+    10: [[/kick|football/i, 'Oscar’s football flying through the air in a perfect curve.'], [/lonely|sad|Professor/i, 'Professor Pinch holding a teacup, with Samuel beside him.']],
+    11: [[/parade|HOORAY|cheer/i, 'A cable car full of cheering people, with confetti everywhere.'], [/Rosie/, 'Rosie asleep in her cot by moonlight, with a tiny orange bridge.']]
+  };
+  function placeSpots(day, paras) {
+    var list = SPOTS[day] || [], n = paras.length, at = [], from = 1;
+    list.forEach(function (sp, i) {
+      var idx = -1;
+      for (var k = from; k < n; k++) { if (paras[k] !== '~' && sp[0].test(paras[k])) { idx = k; break; } }
+      if (idx < 0) idx = Math.max(from, Math.min(n - 2, Math.round(n * (i + 1) / 3)));
+      at.push(idx); from = idx + 1;
+    });
+    return at;
+  }
+  function spotHtml(day, i) {
+    var sp = SPOTS[day][i];
+    return '<figure class="spot"><img src="images/spot-' + pad(day) + 'ab'[i] + '.jpg" width="1800" height="1125" loading="lazy" alt="' + esc(sp[1]) + '"></figure>';
+  }
+  function prose(paras, day) {
+    if (day) {
+      var at = placeSpots(day, paras);
+      return paras.map(function (p, k) {
+        var h = p.trim() === '~' ? ORNAMENT : '<p>' + inline(p) + '</p>';
+        at.forEach(function (a, i) { if (a === k) h += spotHtml(day, i); });
+        return h;
+      }).join('');
+    }
+    return proseOnly(paras);
+  }
+  function proseOnly(paras) {
     return paras.map(function (p) { return p.trim() === '~' ? ORNAMENT : '<p>' + inline(p) + '</p>'; }).join('');
   }
   function pad(n) { return (n < 10 ? '0' : '') + n; }
@@ -143,7 +182,7 @@
           '<h2 class="chapter-title">' + esc(c.title) + '</h2>' +
           '<p class="read-time">' + (state.edition === 'oscar' ? 'About ' + mins + ' minutes of reading' : 'About ' + mins + (mins === 1 ? ' minute' : ' minutes') + ' to read aloud') + '</p>' +
         '</div>' +
-        '<div class="prose">' + prose(paras) +
+        '<div class="prose">' + prose(paras, state.edition === 'samuel' ? c.day : 0) +
           '<p class="continued">' + (isLast ? 'The End.' : 'To be continued…') + '</p></div>' +
         (state.edition === 'oscar' ?
           '<figure class="map"><button type="button" class="map-link" id="open-map" aria-label="Show Oscar’s map full screen"><img src="images/map-' + pad(c.day) + '.jpg" width="1800" height="1125" loading="lazy" alt="Oscar’s watercolour map of San Francisco for day ' + c.day + ', showing the route taken so far."></button>' +

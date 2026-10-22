@@ -5,38 +5,25 @@ window.CHAPTERS = [
   "title": "The Suspiciously Heavy Suitcase",
   "samuel": {
    "paragraphs": [
-    "Daddy was off on a big trip, all the way to San Francisco!",
-    "He packed socks, a toothbrush, and his tie with computers on it.",
-    "“Oh dear, oh dear, oh dear! I’ve got a meeting at nine!”",
-    "Early, early, in the dark, Daddy tiptoed downstairs. **CREEEAK!**",
-    "Mummy yawned in her dressing gown. “Shh! The boys are fast asleep. Later they’re off to Granny’s for a sleepover. Oscar planned it all!”",
-    "Rosie pointed at the suitcases and squealed. “BA! BA! BAAAA!”",
-    "“Silly billy,” yawned Mummy. “The boys are upstairs in bed.”",
-    "Daddy lifted the suitcases. **HUFF! PUFF!** “Goodness! Did I pack a rhinoceros?”",
-    "**WHOOOOSH!** went the aeroplane.",
-    "In San Francisco, a taxi zoomed up a steep, steep hill. **VRRRRM!** Daddy held on to his hat!",
-    "At the Grand Magnolia Hotel, tall Delphine gave him a key. “Room 1937. Best view in the city!”",
-    "Outside: fog. People here call the fog… Karl!",
-    "Daddy put down the suitcases. **THUMP. THUMP.** And the suitcases… giggled.",
-    "**ZZZZZZIP!** Out popped Oscar, with his football.",
-    "**ZZZZZZIP!** Out popped somebody small, with long blonde hair sticking out of a colander helmet, a wooden sword, and a T. rex called Roary.",
-    "“I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT!” he shouted. “ROOOAR!”",
-    "“Oh dear, oh dear, oh DEAR!” cried Daddy, and sat down — **SQUISH!** — on an apple. “You must go home!”",
-    "“We can’t,” said Oscar. “No tickets. We’re stowaways. Like pirates.”",
-    "“I’m NOT a pirate,” said Samuel. “I’m a KNIGHT!”",
-    "“Anyway,” said Oscar softly, “you said you’d miss us.”",
-    "Daddy’s heart went melty. “Then you’ll just have to stay.”",
-    "“HOORAY!” Samuel bounced so high his colander fell off!",
-    "They fell asleep in a snuggly heap. Samuel snored like a small dragon.",
+    "Daddy was going on a big trip, all the way to San Francisco in America. He packed his socks and his toothbrush. “Oh dear, oh dear, oh dear!” he said. “So many meetings!”",
+    "Before the sun was up, Daddy tiptoed downstairs. Mummy came to wave goodbye, holding baby Rosie. “Shhh,” she whispered. “The boys are fast asleep.”",
+    "But Rosie pointed at Daddy’s two suitcases and squealed, “BA! BA! BAAAA!”",
+    "Daddy picked them up. **HUFF! PUFF!** They were VERY heavy. “Goodness me,” he puffed. “What did I pack? A rhinoceros?”",
+    "**WHOOOOSH!** went the aeroplane, all day long. Then a taxi took Daddy up a steep, steep hill to a big hotel. In his room, he put the suitcases down. **THUMP! THUMP!**",
+    "And then… the suitcases *giggled*.",
+    "**ZZZZZIP!** The orange suitcase popped open, and out climbed Oscar with his football. “Hello, Daddy,” he said. “Don’t panic.”",
+    "**ZZZZZIP!** The blue-green suitcase popped open, and out sprang somebody small, with long blonde hair, a colander helmet, a wooden sword and a toy T. rex called Roary. “I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT!” he shouted. “ROOOAR!”",
+    "“Oh dear, oh dear, oh DEAR!” cried Daddy. “You should be at home in bed!”",
+    "“We can’t,” said Oscar. “We haven’t got tickets. And you said you’d miss us.”",
+    "Daddy looked at his two boys, and his heart went soft, like butter in the sun. “Then I suppose you’ll have to stay.” “HOORAY!” shouted Samuel, bouncing on the bed. Soon all three were fast asleep in one cosy, snoring heap.",
     "~",
-    "In the morning, Daddy pulled the curtains. **SWISH!**",
-    "“Look, boys! The most famous bridge in the world! The big orange Golden Gate Bridge!”",
-    "Two cliffs. Seagulls. Lots of cars going **BEEP! BEEP! HONK!**",
-    "But the bridge… was GONE."
+    "In the morning, Daddy jumped up. “Boys! Come and see the most famous bridge in the world, the big orange Golden Gate Bridge!” **SWISH!** He pulled open the curtains.",
+    "There was the sparkly blue sea. There were two big cliffs, and seagulls, and a line of cars going **BEEP! BEEP!** But between the cliffs, there was nothing at all.",
+    "The Golden Gate Bridge was GONE!"
    ],
    "puzzle": {
-    "q": "I have a zip, but I’m not a coat. I have a handle, but I’m not a door. And yesterday I was full of giggling boys! What am I?",
-    "a": "A suitcase! It has a zip and a handle — and Daddy’s two suitcases had Oscar and Samuel Lightning Thunderbolt Fire The Knight inside."
+    "q": "I have a zip, but I’m not a coat. I have a handle, but I’m not a door. And Daddy thought he’d packed a rhinoceros inside me! What am I?",
+    "a": "A suitcase! Daddy’s two suitcases were heavy because Oscar and Samuel were hiding inside."
    }
   },
   "oscar": {
@@ -92,42 +79,22 @@ window.CHAPTERS = [
   "title": "Hide From Mummy!",
   "samuel": {
    "paragraphs": [
-    "The bridge was gone! But first… breakfast.",
-    "Pancakes! Samuel’s syrup gave him a sticky moustache.",
-    "Then Daddy’s laptop went **BLOOP-BLOOP! BLOOP-BLOOP!**",
-    "“Oh dear, oh dear, oh dear! It’s Mummy! I’ll be in SO much trouble! HIDE!”",
-    "**WHOOSH!** Oscar slid under the bed.",
-    "**SWISH!** Samuel jumped behind the curtains.",
-    "There was Mummy! And Victoria, holding Rosie!",
-    "“Hello, darling,” said Mummy. “The boys are at Granny’s. Oscar left me a note.”",
-    "“Lovely,” squeaked Daddy. “Just me here. All alone.”",
-    "Rosie pointed at the curtains and squealed: “BA! GOO! BA! BA! GOO!”",
-    "Uh-oh. Out of the curtains poked… the colander!",
-    "“Is that a *colander*?” asked Mummy.",
-    "“It’s… a lampshade,” said Daddy. “A fancy American lampshade.”",
-    "“Has it got a sword, too?” asked Victoria.",
-    "**WHOOSH!** Out burst the knight himself!",
-    "“I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT! And I am in AMERICA!”",
-    "Mummy’s mouth fell open. Her eyebrows went down. “**DADDY!**”",
-    "“It wasn’t me!” squeaked Daddy. “They were in the suitcases!”",
-    "Oscar crawled out. “Sorry, Mummy. We missed Daddy. And the Golden Gate Bridge has disappeared. We’re going to find it!”",
-    "Mummy looked at her boys, safe and syrupy. Her eyebrows went up.",
-    "“All right,” she said. “You can stay. But you must LOOK AFTER DADDY. And call me every single day.”",
-    "“We PROMISE!”",
-    "“It’s awfully quiet here without you,” said Mummy. “No sword fights at all.”",
-    "“I’ll pack you some snacks next time,” said Victoria.",
+    "Daddy was still staring at the empty cliffs when his laptop went **BLOOP-BLOOP!** It was a video call from home. “Oh dear, oh dear, oh dear!” cried Daddy. “It’s Mummy! She doesn’t know you’re here! Quick, HIDE!”",
+    "The boys dashed behind the curtains. But the curtains were a bit too short, and four feet poked out underneath.",
+    "Daddy waved at the screen. There was Mummy, and Victoria, holding baby Rosie. “Hello!” said Mummy. “How is your trip?”",
+    "“Lovely!” said Daddy, much too loudly. “It’s just me here. All on my own. Nobody else at all!”",
+    "But Rosie had spotted the feet. She pointed straight at the curtains. “BA! GOO! BA-BA-GOO!” “Just curtains, Rosie,” said Daddy. “Ha ha.” “BA! BA! GOOOOO!” squealed Rosie, pointing harder.",
+    "Then the curtains wobbled. **SWOOSH!** Out jumped Samuel, with his sword up high. “I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT! And I am in AMERICA!”",
+    "Mummy’s mouth fell open. Then her eyebrows came down, very cross. “**DADDY!**” “I didn’t know!” squeaked Daddy. “They were in the suitcases!”",
+    "Oscar stepped out too. “Sorry, Mummy. It was our idea. We missed Daddy. And now the big bridge is missing, and we want to help find it.”",
+    "Mummy looked at her boys for a long time. “I am still cross,” she said. “But you may stay, as long as you look after Daddy. He worries, you know.” “We PROMISE!” said the boys. “I’ll pack you some snacks next time,” said Victoria.",
     "~",
-    "Then the TV said: **BA-DUM-BUM!** “Big news! The Golden Gate Bridge is MISSING!”",
-    "A policeman scratched his head. “We’ve looked everywhere. Even down the back of the sofa!”",
-    "Delphine flapped her long arms. “My Bridge View rooms look at NOTHING! Just seagulls!”",
-    "“Oh dear,” said Daddy. “And I’ve got a meeting at nine tomorrow!”",
-    "But Oscar was looking at the windowsill.",
-    "There sat a teeny-weeny bolt, as small as a grain of rice.",
-    "And it was red-orange… exactly the colour of the bridge."
+    "Then the news came on the television. “The Golden Gate Bridge is MISSING! The police have looked everywhere!” “Oh dear, oh dear, oh dear,” said Daddy. “And I’ve got a meeting tomorrow!”",
+    "But Oscar was looking at the windowsill. There was something there, smaller than a grain of rice. He looked closer. It was a teeny-tiny bolt, the kind that holds things together. And it was orange. Exactly the same orange as the missing bridge…"
    ],
    "puzzle": {
-    "q": "Rosie squealed: “BA! GOO! BA! BA! GOO!” How many times did she squeal “BA”? (Try squealing it with her!)",
-    "a": "Three times! BA (one), BA (two), BA (three) — and “GOO” two times."
+    "q": "When Mummy called, four feet were poking out under the curtains. Every boy has two feet. How many boys were hiding behind the curtains?",
+    "a": "Two boys: Oscar and Samuel! Two feet and two more feet make four."
    }
   },
   "oscar": {
@@ -187,42 +154,22 @@ window.CHAPTERS = [
   "title": "The Nine O’Clock Meeting",
   "samuel": {
    "paragraphs": [
-    "**TICK-TOCK! TICK-TOCK!** It was nearly nine o’clock.",
-    "Daddy wanted to study the teeny-weeny bolt. But he had a meeting with his boss, Brenda.",
-    "“Oh dear, oh dear, oh dear! I can’t be in two places at once!”",
-    "“Yes, you can,” said Oscar. “We’ll be you.”",
-    "Samuel climbed onto Oscar’s shoulders. **WOBBLE, WOBBLE.** Daddy buttoned his long coat round them both, and popped his hat on Samuel’s colander.",
-    "“This will NEVER work,” said Daddy.",
-    "“Go and get a magnifying glass,” said Oscar from inside the coat.",
-    "Off went Daddy. **BLOOP!** went the laptop.",
-    "There was Brenda. Very serious. “Good morning. You look… taller. And blonder.”",
-    "“I have been growing,” said Samuel, in a deep, deep voice. “It’s the sunshine.”",
-    "“What’s the plan?” said Brenda.",
-    "“We need to refactor the synergy pipeline,” said Samuel.",
-    "“And deploy to the cloud,” said Oscar’s voice, from the coat’s tummy.",
-    "“The fluffy one,” said Samuel.",
-    "Brenda wrote it down. “My computer keeps crashing.”",
-    "“Have you tried turning it off and on again?”",
-    "She tried. It worked! “Remarkable.”",
-    "“Also,” said Samuel, “I propose we leverage the dinosaurs. ROOOAR!”",
-    "Then the coat sneezed. **A-CHOO!**",
-    "“Bless you,” said Brenda. “Was that your… tummy?”",
-    "“Yes,” said Samuel. “It has a cold.”",
-    "Brenda almost smiled. “Best meeting all quarter. Let’s circle back.” **BLOOP.**",
+    "Next morning, Daddy wanted to look at the tiny orange bolt through a magnifying glass. But he had a video meeting with his boss, Brenda. “Oh dear, oh dear, oh dear! I can’t be in two places at once!”",
+    "“Yes, you can,” said Oscar. “WE’LL be you!”",
+    "Samuel climbed onto Oscar’s shoulders. **WOBBLE, WOBBLE!** Daddy buttoned his long coat around them both and popped his hat on top of Samuel’s colander. Now they looked like one very tall, wobbly Daddy. Then real Daddy dashed off to buy a magnifying glass.",
+    "**BLOOP!** There was Brenda. Brenda was very serious. She never, ever laughed. “Good morning,” she said. “You look… taller.” “I have been eating my vegetables,” said Samuel, in his deepest, growliest voice.",
+    "“Hmm. And how are the computers?” asked Brenda. Oscar whispered from inside the coat, and Samuel said it out loud: “Beep boop. The computer is very tired. The computer needs a NAP.” Then he added, “And we need more DINOSAURS. ROOOAR!”",
+    "Just then, a bit of fluff tickled Oscar’s nose, and the coat went **A-A-A-CHOO!** “Bless you,” said Brenda. “Was that your tummy?” “Yes,” said Samuel. “My tummy has a cold.”",
+    "And then Brenda did something nobody had ever seen before. She smiled! “That,” she said, “was the best meeting EVER.” **BLOOP!**",
     "~",
-    "Daddy came back from the gift shop with a magnifying glass shaped like a cable car. Oscar peered at the tiny bolt.",
-    "Stamped on its head were some letters and numbers: **GG 1937**.",
-    "“GG means Golden Gate,” said Oscar. “And 1937 is when the bridge was built! Like our room!”",
-    "“This is a REAL bridge bolt. Just teeny.”",
-    "“Nobody took the bridge away. Somebody SHRANK it!”",
+    "Daddy had tiptoed back in with his magnifying glass. He held it over the tiny bolt. “There are letters on it!” he whispered. “G… G… and the numbers 1937.”",
+    "Oscar thought hard. “GG means Golden Gate! And the bridge was built in 1937. So this is a real bolt from the real bridge, only it’s tiny. Nobody carried the bridge away, Daddy. Somebody SHRANK it!”",
     "“Like Daddy’s jumper in the washing machine!” said Samuel.",
-    "**PING!** A message from Brenda:",
-    "*Great meeting. Let’s have another one next week. And bring the tall version of you.*",
-    "“Oh dear,” said Daddy. “Oh dear, oh dear, oh DEAR.”"
+    "“Oh dear, oh dear, oh DEAR,” whispered Daddy. “But who would shrink a whole bridge? And where have they taken it?”"
    ],
    "puzzle": {
-    "q": "Samuel stood on Oscar’s shoulders inside Daddy’s long coat. How many legs were poking out of the bottom of the coat?",
-    "a": "Two legs — Oscar’s! Samuel’s legs were up on Oscar’s shoulders, hidden inside the coat."
+    "q": "To make a pretend Daddy, Samuel stood on Oscar’s shoulders, and Daddy’s hat went on top of Samuel’s colander. Who was at the very bottom, holding everybody up?",
+    "a": "Oscar! He stood at the bottom with Samuel on his shoulders, and the hat went right on top."
    }
   },
   "oscar": {
@@ -285,33 +232,19 @@ window.CHAPTERS = [
   "title": "The Cable Car Clue",
   "samuel": {
    "paragraphs": [
-    "No meetings today! Off they went to catch a cable car.",
-    "**DING-DING!** Along it came, rattling and clattering.",
-    "At the front stood a great big man with a great big moustache, bushy as a sleeping walrus.",
-    "“Name’s Big Lou,” he said. “All aboard!”",
-    "Big Lou pulled a long lever. **CLUNK!** Under the road, a cable went **HUMMMMM**. Down the hill they rolled. Down, down, DOWN!",
-    "“Oh dear, oh dear, oh dear,” said Daddy, holding on tight. “Where are the brakes?”",
-    "“FASTER!” shouted Samuel, waving his sword. “FOR THE KING!”",
-    "Oscar showed Big Lou the teeny bolt. “Did you see anything strange the night the bridge vanished?”",
-    "Big Lou’s moustache twitched. “Sure did. I was oiling my cable car late at night, and along came a man in little round glasses and a long PURPLE coat.”",
-    "“He had a gadget that went **GLOW, GLOW, GLOW**. And under his arm was something long and red… like a toy bridge! He went down the hill. Towards the sea.”",
-    "Then three other passengers piped up.",
-    "A lady with a snuffly pug said, “I saw him too! He went DOWN the hill to the sea!”",
-    "A man with a giant burrito said, “No, no! She’s fibbing! He went UP the hill, to the sky!”",
-    "A girl with a skateboard said, “Burrito Man is the one who’s fibbing.”",
-    "“One of them is fibbing,” whispered Oscar.",
-    "Big Lou stroked his moustache. Then he rang his bell in a very strange way.",
-    "**DING… DING-DING… DING-DING-DING!**",
-    "“That’s my ‘something fishy’ ring,” he said, and winked.",
-    "“Oh dear,” said Daddy. “Fishy? I don’t like fishy.”",
-    "At the bottom, everybody climbed off. But Samuel spotted something stuck down the side of the seat.",
-    "He pulled it out. **CRINKLE, CRINKLE.**",
-    "It was a crumpled paper bag that smelled of vanilla, with a little fortune cookie on the front.",
-    "Stuck to the bag was one long… purple… thread."
+    "“Somebody must have seen who shrank the bridge,” said Oscar. “Let’s ride a cable car and ask.” **DING-DING!** Along came a little red cable car, a wooden tram pulled by a cable under the street. At the front stood Big Lou, a huge man with a huge moustache. “All aboard!” he boomed.",
+    "**CLUNK!** went Big Lou’s lever, and off they went, down the steepest hill you ever saw. “FASTER!” shouted Samuel. “FOR THE KING!” “Oh dear, oh dear, oh dear!” cried Daddy, holding on tight.",
+    "Oscar showed Big Lou the tiny bolt. “Did you see anything strange on the night the bridge went missing?”",
+    "Big Lou’s moustache went very still. “I sure did. I was working late. And out of the fog came a man in a long purple coat, with little round glasses. In one hand he had a gadget that glowed green. And under his arm was something long and red, like a toy bridge. He hurried off downhill, towards the sea.”",
+    "“The bridge!” gasped Oscar. “So the man in the purple coat shrank it, with his glowing gadget!”",
+    "Big Lou rang his bell, slow and serious: **DING… DING-DING… DING-DING-DING!** “Something fishy is going on,” he said.",
+    "At the bottom of the hill, Samuel sniffed the back seat like a puppy. Something was stuck down the crack. He pulled it out. **CRINKLE, CRINKLE!** It was a paper bag that smelled of sugar. On the front was a picture of a fortune cookie and the name of a bakery in Chinatown. And caught on its corner was a long purple thread.",
+    "Oscar’s eyes went wide. “A purple thread, from a purple coat! The purple-coat man sat right HERE. And he bought cookies from that bakery!”",
+    "“Then we must go to the cookie shop!” said Samuel, waving his sword. “Maybe the baker knows who he is!”"
    ],
    "puzzle": {
-    "q": "Big Lou saw the purple-coat man go DOWN the hill to the sea. The pug lady said DOWN to the sea. The burrito man said UP the hill. Who was fibbing?",
-    "a": "The burrito man! Big Lou and the pug lady both said the purple-coat man went DOWN to the sea — and the skateboard girl was right too."
+    "q": "Big Lou rang his bell: DING… DING-DING… DING-DING-DING! Can you count how many DINGs that was altogether?",
+    "a": "Six DINGs! One, then two more makes three, then three more makes six."
    }
   },
   "oscar": {
@@ -361,34 +294,20 @@ window.CHAPTERS = [
   "title": "Fortune Cookies",
   "samuel": {
    "paragraphs": [
-    "Do you remember? On the cable car seat, Samuel found a crumpled paper bag. Oscar read the tiny letters: “WU’S FORTUNE COOKIES. Chinatown!”",
-    "“Oh dear, oh dear, oh dear,” said Daddy. “I’ve got a meeting at three!”",
-    "In Chinatown, red lanterns hung over the street like giant cherries. In one shop window hung shiny roast ducks.",
-    "“Birds come from dinosaurs,” said Oscar.",
-    "Samuel gasped. “ROAST DINOSAUR!”",
-    "May’s bakery was tiny and warm. A machine went **CLICKETY-CLACK, CLICKETY-CLACK**, and out came golden cookies, each with a secret paper inside.",
-    "“Football. Colander. Worried daddy,” said May, without even looking up. She had VERY sharp eyes.",
-    "“Have you seen a man in a purple coat?” asked Oscar.",
-    "“Oh yes. Creaky voice. He ordered FIVE HUNDRED cookies, all with the same fortune: *Someone will come and visit you soon.* ‘Who are they for?’ I asked. He said, ‘Me.’”",
-    "She found the order slip: *Professor P. Pinch, Collector of Famous Things. Deliver to: Pier 39, the old rowing boat.*",
-    "“A professor!” gasped Daddy. “Oh dear, oh dear, oh DEAR!”",
-    "**BRRRING!** It was Victoria, holding Rosie.",
-    "“BAAAA!” squealed Rosie, waving her spoon.",
-    "“Hello, boys!” said Victoria. “Mummy asks: are you looking after Daddy?”",
-    "“YES!” shouted the boys. “We’re on a CLUE!”",
-    "“Go, team!” cheered Victoria.",
-    "Daddy went pink. “Please tell Mummy everything is VERY safe and sensible.”",
-    "Victoria looked at the flour on Samuel’s nose. “Hmm,” she said. And she winked.",
-    "Then May gave Samuel the broken cookies. **CRUNCH. CRUNCH. CRUNCH.** One fortune said: *You will find great treasure.*",
-    "“I KNOW,” said Samuel Lightning Thunderbolt Fire The Knight. **CRUNCH.**",
-    "Soon his tummy was as round as a football. “Ooof. I am a cookie-saurus.”",
-    "But at the bottom of the crumpled bag was ONE last cookie. **CRACK!** Inside, in spidery purple ink, it said:",
+    "So off they went to Chinatown, to find the cookie bakery. Red lanterns hung over the street like glowing balloons, and the air smelled of sugar. “Mmmm,” said Samuel.",
+    "Inside the little bakery, a machine went **CLICKETY-CLACK, CLICKETY-CLACK**, and a lady called May was folding fortune cookies faster than you could blink. A fortune cookie is a crunchy biscuit with a tiny paper message hidden inside.",
+    "May looked at them with her sharp eyes. “A football, a colander and a worried daddy,” she said. “What do you want?” Oscar showed her the paper bag. “Have you seen a man in a long purple coat?”",
+    "May stopped folding. “Yes. Little round glasses. Voice like a creaky door. He ordered five hundred fortune cookies!” She found his order on a pink piece of paper, and Oscar read it out loud: “*Professor Pinch. Deliver to: Pier 39, the old rowing boat.*”",
+    "“So his name is Professor Pinch!” said Oscar. “And Pier 39 is down by the sea, where the boats are. That’s where we must go next!” “Oh dear, oh dear, oh dear,” said Daddy. “Professors are terribly clever.”",
+    "May gave Samuel some broken cookies to try. **CRUNCH!** One. **CRUNCH!** Two. **CRUNCH! CRUNCH! CRUNCH!** Soon Samuel was lying on the floor with a tummy as round as Oscar’s football. “I am a COOKIE-SAURUS,” he groaned.",
+    "But at the very bottom of the old paper bag from the cable car, there was one last cookie. Samuel cracked it open. **CRACK!** The message inside was written in wobbly purple ink. Oscar read it, and his voice went very quiet.",
     "“*Little knight, the bridge is not the only thing he has taken.*”",
-    "May leaned close. “That,” she whispered, “is not my writing.”"
+    "“That,” whispered May, “is not my writing.”",
+    "Samuel hugged Roary tight. “Not the only thing?” he whispered. “Then what ELSE has he taken?”"
    ],
    "puzzle": {
-    "q": "I’m crunchy and golden and folded in two. I’ve got a little secret paper hiding inside me. What am I?",
-    "a": "A fortune cookie! Crack one open and you’ll find a tiny message inside, just like Samuel did."
+    "q": "Which one of these is different, because you can’t eat it? A fortune cookie, a cupcake, a football, a biscuit.",
+    "a": "The football! You can eat a fortune cookie, a cupcake and a biscuit, but you can only kick a football."
    }
   },
   "oscar": {
@@ -448,35 +367,18 @@ window.CHAPTERS = [
   "title": "The Admiral",
   "samuel": {
    "paragraphs": [
-    "Do you remember the spooky fortune? *Little knight, the bridge is not the only thing he has taken.* Brrrr!",
-    "Off to Pier 39!",
-    "“Oh dear, oh dear, oh dear,” said Daddy. “My big presentation is TOMORROW! I haven’t even chosen a font!”",
-    "Pier 39 was noisy. **ARK! ARK! AROOO!** Hundreds of sea lions flopped on the wooden floats like big brown sausages.",
-    "But the old rowing boat was GONE. Just a frayed, wet rope.",
-    "“Then we’re stuck,” said Daddy, looking rather pleased.",
-    "“*Hmph,*” said a deep voice.",
-    "On a float lay the biggest sea lion of all. He had grey whiskers like a broom. He smelled VERY fishy.",
-    "“Children,” he said. “At last. Somebody with sense.”",
-    "“It TALKED!” gasped Samuel.",
-    "“I am the Admiral. I only talk to children. Grown-ups never listen. They’re always thinking about their *fonts*.”",
-    "All Daddy heard was: “**ARK ARK.**”",
-    "“Is that computer talk?” whispered Daddy. “Erm. Hello. Would you like a… sandwich?”",
-    "“**ARK,**” sighed the Admiral. (That means *give me patience*.)",
-    "Samuel bowed so low his colander fell off. “I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT! And this is Roary. He’s not hungry.”",
-    "“Excellent manners,” said the Admiral. “Now listen. At midnight, a man in a purple coat untied that boat. In it was something long and red, and something that GLOWED. He rowed out there like a beetle on its back.”",
-    "He pointed his flipper at a rocky island.",
-    "“Alcatraz,” whispered Oscar. “The Rock. It used to be a prison.”",
-    "“That water is cold and fast and swirly,” said the Admiral. “Even I don’t swim there after supper.”",
-    "“I’m not scared,” said Samuel. “Knights wear armour!”",
-    "“Armour,” said the Admiral, “sinks.”",
-    "Daddy held out a sardine, eyes shut. **GULP!**",
-    "“How do we get there?” asked Oscar.",
-    "The Admiral looked at them for a long, long time. Even the seagulls went quiet.",
-    "“Oh,” he said, “he’ll be expecting you.”"
+    "Next day, off they went to Pier 39, to find the old rowing boat. **ARK! ARK! ARK!** Hundreds of sea lions lay flopped on wooden rafts, barking and snoozing, like a big pile of wet sleeping bags.",
+    "They looked everywhere for the old rowing boat. At last they found a rope tied to a post, but the boat was gone. “Oh dear,” said Daddy. “Then we’re stuck.”",
+    "“*Hmph,*” said a deep voice. On a raft all by himself lay the biggest sea lion they had ever seen. He was as big as a sofa, with bristly whiskers and a little navy hat, and he smelled very strongly of fish. “I am the Admiral,” he said. “I only talk to children. Grown-ups never listen.”",
+    "“It TALKED!” gasped Samuel. But to Daddy, it just sounded like **ARK! ARK! AROOOO!** “Hello, Mr Sea Lion,” said Daddy slowly. “Would you… like… a sandwich?”",
+    "Samuel bowed so low that his colander fell off. “I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT!” “Excellent manners,” said the Admiral. “Ask your questions.”",
+    "“Have you seen a man in a purple coat?” asked Oscar. “I have,” said the Admiral. “At midnight he rowed away in the old boat, with something long and red and something glowing green.” He pointed his flipper at an island far out in the sea. “He went THERE. To Alcatraz. It was a prison, long ago.”",
+    "“So the bridge is on Alcatraz!” said Oscar. “That’s where we must go!” The Admiral looked very serious. “The water there is icy cold, and it swirls and pulls. You must never, ever swim there.” “Then how do we get across?” asked Oscar.",
+    "The Admiral gazed at the island for a long, long time. Even the seagulls went quiet. Then he turned to them and said softly, “Oh, he’ll be expecting you.”"
    ],
    "puzzle": {
-    "q": "How can you get across the water when there isn’t a bridge? Here’s a clue: I float, I have two oars, and you sit in me and row, row, row! What am I?",
-    "a": "A rowing boat! Just like the one Professor Pinch used to row out to Alcatraz."
+    "q": "Here’s a riddle. I float on the water. I have two oars. You sit inside me and row, row, row. What am I?",
+    "a": "A rowing boat! Professor Pinch rowed one to Alcatraz, and that’s how they will have to get there too."
    }
   },
   "oscar": {
@@ -532,30 +434,21 @@ window.CHAPTERS = [
   "title": "The Big Presentation",
   "samuel": {
    "paragraphs": [
-    "Do you remember what the Admiral said? “*He’ll be expecting you.*”",
-    "“Expecting us!” said Daddy. “Oh dear, oh dear, oh dear. And today is my BIG presentation!”",
-    "“You can’t do both,” said Oscar. “But WE can.”",
-    "So Samuel climbed onto Oscar’s shoulders. On went Daddy’s long coat. On went Daddy’s hat. **BUTTON, BUTTON, BUTTON.** It was a very tall, very wobbly Daddy.",
-    "Samuel drew his own slide. A dinosaur dressed as a knight! Underneath it said: *STRATEGY.*",
-    "**BLOOP!** There was Brenda, the boss, and the whole Board, looking serious.",
-    "“We need to refactor the synergy pipeline,” said Oscar in his deepest voice.",
-    "“And I propose,” said Samuel, “we leverage the DINOSAURS!” Up came his slide.",
-    "Then Oscar explained the offside rule of software. “In football, you’re offside if you’re past the last defender. In software, your code is offside if it gets to the customer before the last bug is tackled.”",
-    "The coat wobbled. “Just a little earthquake,” said Samuel.",
-    "Silence. Then… **CLAP! CLAP! CLAP!** The whole Board was clapping!",
-    "“Let’s circle back,” said Brenda. “No. Let’s NOT. That was perfect.”",
-    "Meanwhile, Daddy was down by the water. A friendly fisherman called Sal lent him a little rowing boat called *The Brave Little Sardine*. “You got guts!” said Sal. “Not me,” said Daddy. “My boys do.” Daddy checked the tides. He packed three torches. And two first-aid kits, in case one got lost.",
-    "That night there was no fog at all. Just a big, round, silver moon.",
-    "Samuel sat at the front with his sword. Oscar held his football. Daddy rowed.",
-    "**SPLOSH.** “Oh dear.” **SPLOSH.** “Oh dear.” **SPLOSH.** “Oh dear, oh dear.”",
-    "Oscar looked back at the dark, empty gap where the bridge should be. “We’re coming,” he whispered.",
-    "Closer came the Rock, big and black and silent.",
-    "And then — **FLICKER.**",
-    "High up in a window of the old prison… a light came on."
+    "“Expecting us?” said Daddy. “Oh dear, oh dear, oh dear. And today is my biggest meeting of the whole year! But we need a boat, and torches, and—” “Don’t worry,” said Oscar. “We’ll be you again. You go and find a boat.”",
+    "So on went the disguise: Samuel on Oscar’s shoulders, Daddy’s long coat buttoned up, Daddy’s hat on top. And Samuel drew a special picture for the meeting: a T. rex knight in shining armour, holding a sword.",
+    "**BLOOP!** There was Brenda, and lots of very serious people in suits. Samuel held up his picture. “This is our plan,” he boomed. “Dinosaurs. Knights. And a NAP for the computers. Beep boop.”",
+    "Nobody said a word. The coat wobbled to the left. The coat wobbled to the right. Then the coat sneezed again: **A-A-A-CHOO!**",
+    "Then one man began to clap. Then another. Then EVERYBODY clapped! **CLAP! CLAP! CLAP!** And Brenda smiled her biggest smile. “Wonderful!” she said.",
+    "~",
+    "Meanwhile, Daddy found a kind fisherman, who lent him a little wooden rowing boat. Daddy bought three torches, three woolly hats and a flask of hot chocolate.",
+    "That night, a big round moon shone over the sea. Off they went: Samuel at the front with his sword, Oscar in the middle with his football and a torch, and Daddy rowing. **Splosh.** “Oh dear.” **Splosh.** “Oh dear.” **Splosh.** “Oh dear, oh dear!”",
+    "The island grew bigger, and darker, and quieter. Daddy stopped rowing. Nobody said anything at all.",
+    "And then, high up in the old prison, where nobody had lived for years and years, a light flickered on.",
+    "Somebody was home."
    ],
    "puzzle": {
-    "q": "Daddy said “Oh dear!” every time he rowed. Let’s count his rows together: SPLOSH, SPLOSH, SPLOSH, SPLOSH. If he said “Oh dear!” once for every splosh, how many “Oh dears” was that?",
-    "a": "Four “Oh dears”! One for every splosh — one, two, three, four. (Poor Daddy!)"
+    "q": "Daddy went: Splosh, oh dear! Splosh, oh dear! Splosh… What comes next?",
+    "a": "“Oh dear!” Every time Daddy rowed, he went splosh, and then he said “oh dear”."
    }
   },
   "oscar": {
@@ -612,35 +505,18 @@ window.CHAPTERS = [
   "title": "The Cabinet of Famous Things",
   "samuel": {
    "paragraphs": [
-    "Do you remember? High up in the old prison… a light came on!",
-    "“Oh dear,” whispered Daddy. “Somebody’s home.”",
-    "**BUMP.** The little boat reached the island. Seagulls grumbled at them. “*Squawk!* Who goes there?”",
-    "Up the steep path they crept. Tip, tip, tip. “Oh dear,” tiptoed Daddy.",
-    "Inside, the old prison was dark and echoey. On the wall, Oscar spotted two tiny purple letters: *P.P.*",
-    "“Professor Pinch!” whispered Oscar. Hidden in the bricks was a secret door, with a lock of four little number wheels.",
-    "Oscar thought hard. “What year was the bridge built? 1937!”",
-    "“Like our hotel room!” said Daddy.",
-    "Click, click, click, click. **CREEEAK!** The secret door swung open.",
-    "Down they went, into a great hall full of glowing glass cabinets.",
-    "And inside them… famous things! Tiny famous things!",
-    "Big Ben, the size of a pencil. *Bong!* went its teeny clock.",
-    "The Eiffel Tower, the size of a teaspoon.",
-    "The Leaning Tower of Pisa, still leaning. Daddy tried to straighten it. It leaned right back.",
-    "And a T. rex skeleton, the size of a mouse! “ROOOAR!” whispered Samuel. Roary looked a bit jealous.",
-    "Then they saw it. On a soft red cushion lay the Golden Gate Bridge. It was so small you could step right over it. One teeny bolt was missing!",
-    "“We found it!” whispered Oscar.",
-    "**CREEEAK.** A voice like a creaky door said, “*Visitors?* Nobody EVER visits!”",
-    "There stood a man in a long purple coat with tiny round spectacles. Professor Pinch!",
-    "He flapped his hands. “I haven’t dusted! I haven’t made tea! What does one DO with visitors?” He grabbed a glowing gadget — the Shrink-u-lator! “Stay back!”",
-    "But Samuel never stays back.",
-    "“I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT! FOR THE KING!” And he charged.",
-    "“Samuel, NO!” cried Daddy.",
-    "**ZAP!**",
-    "A flash of green light. And there, on the floor, no bigger than a mouse, stood Samuel Lightning Thunderbolt Fire The Knight."
+    "**BUMP!** The little boat reached the island. Up the path they tiptoed. Samuel tiptoed like a knight. Oscar tiptoed like a detective. And Daddy tiptoed very badly: tip, tip, *oh dear*, tip.",
+    "Inside, a long dark corridor ran between empty prison cells. At the very end, Oscar found a door hidden in the wall, with a little lock that needed four numbers. “What numbers would the Professor choose?” he wondered. “I know! The numbers on the bridge bolt. 1937!” **Click. Click. Click. Click. CREEEAK!** The secret door swung open.",
+    "Down some stairs was a giant hall full of glass cabinets. And inside the cabinets were the most famous things in the world, all teeny-tiny! There was Big Ben, the London clock tower, as small as a pencil: *bong!* There was the Eiffel Tower, as small as a teaspoon. And there was a T. rex skeleton from a museum, as small as a mouse. “ROOOAR,” whispered Samuel happily.",
+    "“So THAT’s what the fortune meant,” said Oscar. “The bridge isn’t the only thing he’s taken!”",
+    "And in the middle, on a red velvet cushion, lay the Golden Gate Bridge, small enough to step over. “We found it!” whispered Oscar.",
+    "**CREEEAK!** It was a voice, just like a creaky door. “*Visitors?* Nobody EVER visits!” Out stepped a tall, thin man in a long purple coat and round spectacles. It was Professor Pemberton Pinch! He didn’t look cross. He looked frightened. He grabbed a glowing green gadget. “This is my Shrink-u-lator! Stay back!”",
+    "But Samuel never stayed back. “I AM SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT!” he roared. “FOR THE KING!” And he charged. “Samuel, NO!” cried Daddy.",
+    "**ZAP!** There was a flash of green light. And there on the floor, no bigger than a mouse, stood Samuel Lightning Thunderbolt Fire The Knight."
    ],
    "puzzle": {
-    "q": "In the glass cabinets there was Big Ben, the Eiffel Tower, and a T. rex skeleton. Which one is different from the others, and why?",
-    "a": "The T. rex! Big Ben and the Eiffel Tower are buildings, but the T. rex is a dinosaur. ROOOAR!"
+    "q": "In the Professor’s hall there was a tiny Big Ben, a tiny Eiffel Tower and a tiny T. rex skeleton. Which one is different?",
+    "a": "The T. rex! Big Ben and the Eiffel Tower are tall buildings, but the T. rex was a dinosaur."
    }
   },
   "oscar": {
@@ -696,36 +572,19 @@ window.CHAPTERS = [
   "title": "Very Small Samuel",
   "samuel": {
    "paragraphs": [
-    "Last time… **ZAP!** Samuel Lightning Thunderbolt Fire The Knight shrank to the size of a mouse!",
-    "“Oh dear, oh dear, oh DEAR!” cried Daddy. “Samuel? Are you all right?”",
-    "A teeny-tiny voice squeaked, “I am not *Samuel*. I am Samuel Lightning Thunderbolt Fire The Knight. And I am FINE!”",
-    "His colander was the size of a thimble. Roary was the size of a jellybean.",
-    "Small, but BRAVE!",
-    "Professor Pinch put the Shrink-u-lator in its stand. **CLUNK.** “It locks itself after a zap. And the key is hidden. So THERE.”",
-    "“Please!” said Daddy. “He’s got nursery on Monday!”",
-    "Oscar whispered, “Sam, you’re small enough to find that key. I’ll keep him busy.”",
-    "“Like a SPY knight!” whispered Samuel.",
-    "Oscar turned to the Professor. “Is that *really* the Eiffel Tower? I read that it has 1,665 steps.”",
-    "Professor Pinch’s eyes went sparkly. “Nobody EVER asks about my collection!”",
-    "“Fascinating,” said Daddy, stroking his chin. “Very… scalable.” Nobody knew what that meant.",
-    "~",
-    "Tiny Samuel looked at the tiny T. rex skeleton, on its little stand with wheels. It was exactly the right size to ride!",
-    "“GIDDY-UP, REXY!”",
-    "**WHEEEE!** Down the sloping floor! **CLATTER-CLATTER!** Through a drainpipe! **WHOOSH!** Under a door!",
-    "In a little kitchen, on a cushion, slept a big, fat, grumpy ginger cat. *Snore. Purr. Snore.*",
-    "Above it, on a hook, hung a brass key. To Samuel it was as long as a knight’s lance. He grabbed it. The cat opened one yellow eye.",
-    "“MEEEOW?”",
-    "“ROOOAR!” roared Samuel and Roary. The cat shot up onto the fridge. Samuel zoomed home.",
-    "Small, but BRAVE!",
-    "~",
-    "Daddy turned the key. **CLICK.** The panel opened.",
-    "Inside were three switches: a red square, a blue triangle, and a green circle, each with a little brass sign underneath.",
-    "“Careful!” gasped Professor Pinch. “The right switch wakes the machine. The wrong one… shrinks us ALL! And I’ve forgotten which!”",
-    "“Oh dear,” whispered Daddy, his finger wobbling. “Which one?”"
+    "“Oh dear, oh dear, OH DEAR!” cried Daddy, kneeling down beside tiny Samuel. “Samuel, are you all right?” A tiny voice squeaked, “I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT! And I am TINY! It’s BRILLIANT!”",
+    "The Professor clicked his Shrink-u-lator into a big box on the wall. **CLUNK!** “It’s locked now,” he said. “And the key is hidden where you’ll NEVER find it.” As he said *never*, he peeked at a little door in the corner.",
+    "“We need that key to work the machine and make Samuel big again,” whispered Oscar. “Sam, you’re small enough to squeeze under that door. I’ll keep the Professor busy.” So Oscar asked the Professor all about his tiny towers, and the Professor was so happy, because nobody had ever asked him before. He talked, and talked, and talked.",
+    "Meanwhile, Samuel found the little T. rex skeleton on its wheely stand. It was just the right size to ride! “Giddy-up, Rexy!” **CLATTER-CLATTER!** Through a pipe, **WHOOSH!** And under the door they skidded.",
+    "In a little kitchen, a big fat ginger cat lay snoring. And on a hook above the cat hung a shiny brass key. Samuel climbed up, and up, and lifted it down. It was as big as a knight’s lance!",
+    "One yellow eye opened. “*Mrrrow?*” Samuel held up Roary and gave the biggest roar a tiny knight has ever roared: “**ROOOOOAR!**” The cat jumped straight up onto the fridge.",
+    "**CLATTER-CLATTER!** Back rolled Samuel with the key. Daddy unlocked the box. **CLICK!** Inside were three switches: a red square one, a blue triangle one, and a green round one.",
+    "“One switch wakes up the machine,” wailed the Professor. “But the other two shrink EVERYBODY! And I can’t remember which is which!”",
+    "Daddy’s finger shook. “Oh dear, oh dear, oh dear,” he whispered. “Which one?”"
    ],
    "puzzle": {
-    "q": "Oscar reads the tiny brass signs very carefully. They tell him: “The safe switch is NOT red. And it is NOT pointy.” The switches are a red square, a blue triangle and a green circle. Which switch should Daddy press?",
-    "a": "The green circle! The red square is red, and the blue triangle has pointy corners — so the safe one must be the round green circle."
+    "q": "The Professor remembers his clue at last: “The safe switch has no pointy corners, and it is green, like grass.” Is it the red square, the blue triangle or the green circle?",
+    "a": "The green circle! A circle is round with no corners at all, and it’s green like grass."
    }
   },
   "oscar": {
@@ -786,38 +645,21 @@ window.CHAPTERS = [
   "title": "Halloween Code",
   "samuel": {
    "paragraphs": [
-    "Last time: three switches! The wrong one would shrink them ALL!",
-    "Oscar read the tiny brass signs. “NOT red. NOT pointy. It’s the GREEN CIRCLE, Daddy!”",
-    "“Are you SURE?”",
-    "“He’s always sure,” squeaked tiny Samuel from Oscar’s shoulder. “It’s ANNOYING.”",
-    "Daddy pressed it. **BEEP-BOOP!** Nobody shrank. Phew! A big screen lit up, full of wiggly letters and numbers.",
-    "“Now make Samuel big again!” said Oscar.",
-    "Professor Pinch shook his head. “I can’t. My machine only shrinks. It has NEVER un-shrunk anything.”",
-    "“Oh dear, oh dear, oh dear,” said Daddy. Then he looked at the screen. And his hands stopped shaking.",
-    "“Oh dear… oh. *Oh!* There’s a BUG!”",
-    "Samuel looked about for a beetle.",
-    "“Not a creepy-crawly bug,” said Daddy. “A mistake! A *minus* where there should be a *plus*.”",
-    "**TAP. TAPPITY-TAP.** “Fixed it! Honestly, this happens to me twice a week.”",
-    "Daddy the Brave!",
+    "Oscar looked closely at the three switches. Underneath, in tiny writing, it said: *No corners. Green like grass.* “It’s the green round one!” he said. Daddy pressed it. **BEEP!** Nobody shrank. Phew! Instead, a big screen lit up, full of computer code: the words that tell a machine what to do.",
+    "“Now make Samuel big again,” said Oscar. But the Professor shook his head. “It can’t. The make-big button has never, ever worked.”",
+    "“Oh dear, oh dear, oh—” Daddy stopped. He was looking at the code. Daddy worried about lots of things, but never about code, because fixing code is his job. His hands stopped shaking. “Oh! There’s a BUG!” Samuel looked around for a beetle.",
+    "“Not a beetle, a mistake,” said Daddy. “Look, a minus sign. Minus makes things smaller. It should be a plus, to make things bigger!” **Tap, tap, tappity-tap.** Daddy fixed it.",
+    "But the Professor grabbed the Shrink-u-lator and hugged it. “No! You’ll take all my lovely things away!”",
+    "Oscar dropped his football and kicked. **THWUMP!** The ball curled past the cabinets and knocked the Shrink-u-lator out of the Professor’s hands, right into Daddy’s. “GOAL!” squeaked tiny Samuel.",
+    "Daddy pointed it at Samuel and pressed. **WHIRRR… POP!** There stood Samuel, big again! “Do it AGAIN!” he shouted. But Daddy just hugged his boys, tight.",
     "~",
-    "“NO!” cried Professor Pinch. “You’ll take ALL my things!” And he grabbed the Shrink-u-lator.",
-    "Oscar put Samuel on a shelf. He dropped his football. He aimed. **THWUMP!**",
-    "The ball curled round a cabinet and — **BONK!** — knocked the Shrink-u-lator out of the Professor’s hands. Up it spun… and down… straight into Daddy’s arms.",
-    "“GOOOOOAL!” yelled Samuel.",
-    "Daddy pointed the machine at him. **WHIRRR… POP!**",
-    "There stood Samuel Lightning Thunderbolt Fire The Knight — full size, colander and all!",
-    "“AGAIN!” he shouted. Daddy hugged him instead, very tight, for a very long time.",
-    "Daddy the Brave!",
-    "~",
-    "They carried the tiny bridge outside, under the Halloween moon. Samuel marched in front shouting, “MIND THE STEP!”",
-    "Professor Pinch sat on a rock and cried. “I only wanted visitors. Nobody ever comes. Not even trick-or-treaters.”",
+    "It was Halloween night. They carried the tiny bridge outside, past a row of grinning jack-o’-lanterns. “I carve pumpkins every Halloween,” sniffed the Professor, “but nobody ever comes to visit me. I only took the beautiful things so somebody might come and see them.” And he began to cry.",
     "Samuel sat beside him and patted his knee. “Trick or treat,” he said kindly.",
-    "The sky was turning pale. “The bridge must go back before sunrise,” said Oscar.",
-    "“And the Professor?” whispered Daddy. “What shall we do with him?”"
+    "But Oscar was looking at the sky. “Daddy, the bridge has to go back before the sun comes up!” Daddy looked at the bridge, and then at the sad Professor. “And what shall we do about *him*?”"
    ],
    "puzzle": {
-    "q": "Professor Pinch has 3 Halloween pumpkins. His buggy machine had a MINUS, so it took 1 pumpkin away. How many were left? Then Daddy fixed the bug, so now it ADDS 1 pumpkin instead. How many pumpkins now?",
-    "a": "With the bug: 3 take away 1 is 2 pumpkins. After Daddy’s fix: 3 add 1 is 4 pumpkins! That’s why one little minus sign mattered so much."
+    "q": "Minus makes things smaller. Plus makes things bigger. To make tiny Samuel big again, which one did Daddy need: minus or plus?",
+    "a": "Plus! Daddy changed the minus to a plus, so the machine could make things bigger."
    }
   },
   "oscar": {
@@ -885,37 +727,20 @@ window.CHAPTERS = [
   "title": "Home Again",
   "samuel": {
    "paragraphs": [
-    "Last time, the bridge had to go home before sunrise. And what about lonely Professor Pinch?",
-    "Samuel Lightning Thunderbolt Fire The Knight knew. “He needs VISITORS!”",
+    "The sky was turning grey. Samuel looked at the sad Professor, and he knew just what to do. “He needs VISITORS!” he said. Daddy smiled. “Yes. I think he does.”",
+    "They rowed back across the dark sea, with the Professor helping to row and the tiny bridge across their knees. They set it down between the two cliffs. Daddy pointed the Shrink-u-lator and pressed. **WHIRRR… POP… WHOOOOMPH!**",
+    "The bridge grew, and grew, and GREW, its towers stretching up to the sky, until its far end touched the other side. **CLUNK!** And just then the sun came up, and the whole bridge glowed orange.",
+    "Fireboats sprayed fountains of water high into the air. **WHOOSH!** There was a parade with music. Big Lou rang his bell, **DING-DING!** The Admiral barked, **ARK! ARK!** And all the tiny famous things were sent home too, big again.",
+    "The Professor opened a museum on Pier 39, full of wonderful things, and everybody came to visit. He was never lonely again.",
     "~",
-    "They rowed the tiny bridge across the bay. The Professor rowed too. When Daddy said “Oh dear,” the Professor said “Oh dear” as well — so Daddy wouldn’t have to say it alone.",
-    "Daddy set the bridge down between the cliffs. He pointed the Shrink-u-lator. **WHIRRR… POP… WHOOOOOMPH!**",
-    "Up, up, UP it grew, until the Golden Gate Bridge was back where it belonged, glowing orange in the sunrise.",
-    "“HOORAY!” shouted the whole city.",
-    "All the other famous things were posted home, with a note from the Professor: *Sorry!*",
-    "~",
-    "There was a parade! Delphine cried happy tears. Big Lou rang his bell — **DING DING-A-LING DING!** The Admiral barked, “ARK ARK!” (which means “Well done, little knight.”)",
-    "And Professor Pinch opened a museum on Pier 39, full of ordinary, wonderful things: shells, feathers, and Samuel’s drawing of a dinosaur knight. Everybody came to visit. He was never lonely again.",
-    "~",
-    "At his last meeting, Daddy did the talking himself.",
-    "“You look shorter,” said Brenda. “No — taller? Anyway, you’re promoted! Bring the coat. Let’s circle back.”",
-    "Under the desk, the boys giggled.",
-    "~",
-    "Then — **ZZZZIP!** — back into the suitcases, and home.",
-    "Mummy unzipped them. She wasn’t surprised one bit. Out popped Oscar and Samuel Lightning Thunderbolt Fire The Knight!",
-    "“Well?” said Mummy. “Did you look after Daddy?”",
-    "“YES!” said the boys. “He was VERY brave!”",
-    "Then everybody hugged — one great big **SQUEEEEZE!**",
-    "“Next time,” said Mummy, “you’re all taking ME.”",
-    "~",
-    "In her cot, Rosie was holding something tiny… and orange… with two little towers.",
-    "Daddy looked at the boys. The boys looked at the ceiling.",
-    "Then Daddy tucked them into their very own beds, and kissed them, and whispered, “My brave, brave boys.”",
-    "**THE END.**"
+    "Then it was time to go home. **ZZZZZIP!** went one suitcase. **ZZZZZIP!** went the other. At home, Mummy unzipped them. Out came Oscar with his football. Out came Samuel with his sword. “I am SAMUEL LIGHTNING THUNDERBOLT FIRE THE KNIGHT!”",
+    "“Well?” said Mummy. “Did you look after Daddy?” “He fixed a BUG!” said Samuel. “He was the bravest of everybody. Except me.”",
+    "Then there was a big hug: Mummy and Daddy, Oscar and Samuel, and Victoria holding Rosie. Mummy wiped her eyes. “Next time,” she said, “you’re all taking ME.”",
+    "That night, Daddy peeped in at Rosie, asleep in her cot. Her little hand was holding something tiny… and orange. Daddy looked at the boys. Samuel looked at the ceiling and whistled."
    ],
    "puzzle": {
-    "q": "Last riddle! I am long and orange. I have two tall towers. I went small, and now I’m big again, back where I belong. What am I?",
-    "a": "The Golden Gate Bridge! Home again — just like Daddy, Oscar and Samuel Lightning Thunderbolt Fire The Knight."
+    "q": "Count everybody in the big hug at the end: Mummy, Daddy, Oscar, Samuel, Victoria and Rosie. How many people is that?",
+    "a": "Six people! One, two, three, four, five, six, all in one big hug."
    }
   },
   "oscar": {

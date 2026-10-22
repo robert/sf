@@ -146,6 +146,7 @@
  <feDisplacementMap in="SourceGraphic" in2="t" scale="44" xChannelSelector="R" yChannelSelector="G" result="d"/>
  <feGaussianBlur in="d" stdDeviation="2.2"/>
 </filter>
+<mask id="${PID}-v"><rect width="${W}" height="${H}" fill="#000"/><ellipse cx="600" cy="380" rx="500" ry="320" fill="#fff" ${F('edge')}/></mask>
 <mask id="${PID}-m"><rect width="${W}" height="${H}" fill="#000"/><rect x="34" y="30" width="${W - 68}" height="${H - 60}" rx="18" fill="#fff" ${F('edge')}/></mask>
 ${g}${gradDefs}
 </defs>`;
@@ -606,6 +607,210 @@ ${g}${gradDefs}
     return s;
   }
 
+
+  /* ---------- spot illustrations for Samuel's book (vignettes) ---------- */
+  const sfx = (x, y, t, size = 54, c = C.orange, rot = -6) => `<text x="${x}" y="${y}" text-anchor="middle" transform="rotate(${rot} ${x} ${y})" font-family="Kalam, cursive" font-weight="700" font-size="${size}" fill="${c}" fill-opacity=".9">${t}</text>`;
+  const ground = (y = 640, c = C.sienna) => wash(blob(600, y, 420, 46, .1, 13), c, .35, 'soft');
+  const halo = (c1, c2) => wash(blob(600, 380, 470, 300, .12, 13), c1, .45, 'soft') + blooms(5, [180, 120, 840, 480], [c1, c2], 90, 190, .3);
+  function screenFamily(x, y, sc) {
+    let s = `<g transform="translate(${x},${y}) scale(${sc})">`;
+    s += wash(hrect(0, 0, 400, 220, 1), '#f6e7d2', .95, null);
+    s += face(110, 100, 40) + fig('M68,100C58,40 88,26 112,26C140,26 160,44 152,104C146,74 132,62 110,62C88,62 74,76 68,100Z', '#6a4a2e') + fig('M60,170C66,142 154,142 160,170L164,220L56,220Z', C.rose);
+    s += face(290, 92, 34) + fig('M258,90C254,46 276,36 292,36C316,36 328,52 322,92C318,70 306,62 290,62C274,62 262,72 258,90Z', '#d9b56a') + fig('M244,160C252,138 330,138 338,160L342,220L240,220Z', C.lav);
+    s += face(262, 172, 22) + fig(blob(262, 152, 18, 8, .1, 7), C.blush);
+    s += fig('M238,178C222,170 206,150 196,134L204,128C214,142 228,160 244,168Z', C.blush) + fig(blob(196, 128, 7, 7, .1, 7), C.skin);
+    return s + '</g>';
+  }
+  function coatDisguise(x, y, sc) {
+    let s = `<g transform="translate(${x},${y}) scale(${sc})">`;
+    s += fig(hrect(-14, -40, 10, 38, 1), C.skin) + fig(hrect(4, -40, 10, 38, 1), C.skin) + fig(blob(-9, -2, 11, 6, .1, 7), C.crimson) + fig(blob(9, -2, 11, 6, .1, 7), C.crimson);
+    s += fig('M-34,-290C-46,-220 -52,-120 -56,-36L56,-36C52,-120 46,-220 34,-290C14,-298 -14,-298 -34,-290Z', '#566c8f');
+    s += line('M0,-290L0,-40', C.ink, 1.4, .4) + circ(-4, -200, 3, C.ink, .7, null) + circ(-4, -150, 3, C.ink, .7, null) + circ(-4, -100, 3, C.ink, .7, null);
+    s += fig('M-32,-284C-52,-250 -60,-200 -60,-170L-48,-168C-46,-200 -38,-240 -24,-272Z', '#566c8f');
+    s += fig('M32,-284C52,-262 70,-252 92,-250L92,-238C66,-238 46,-250 26,-266Z', '#566c8f') + fig(blob(98, -244, 7, 7, .1, 7), C.skin);
+    s += fig('M-19,-318C-27,-300 -26,-282 -19,-272L19,-272C26,-282 27,-300 19,-318Z', '#e7c35f');
+    s += face(0, -310, 17, { mouth: 'o' });
+    s += fig('M-28,-322L28,-322L22,-332L-22,-332Z', C.indigo) + fig('M-18,-330C-18,-356 18,-356 18,-330Z', C.indigo);
+    return s + '</g>';
+  }
+  const spots = {
+    '1a'() { // heavy suitcases
+      let s = halo('#cfe0ec', C.lav) + ground();
+      s += suitcase(250, 500, 210, 140, C.orange) + suitcase(740, 510, 190, 130, C.teal);
+      s += daddy(600, 650, 1.9, 'worried');
+      s += sfx(330, 300, 'HUFF!', 64, C.orange, -10) + sfx(880, 320, 'PUFF!', 64, C.teal, 8);
+      s += line('M520,220q-10,20 0,30M690,220q10,20 0,30', C.cerulean, 4, .7);
+      return s;
+    },
+    '1b'() { // the aeroplane
+      let s = halo('#cfe3f0', C.blush);
+      s += blooms(10, [100, 380, 1000, 220], [C.white, '#e6e8f2', C.lav], 90, 170, .8);
+      s += plane(600, 320, 5.2);
+      s += brushStrokes(8, [140, 280, 260, 80], C.white, .8, [120, 260], [5, 9]);
+      s += sfx(520, 220, 'WHOOOOSH!', 64, C.cerulean, -4);
+      return s;
+    },
+    '2a'() { // Rosie points from the laptop
+      let s = halo('#efe3cf', C.rose);
+      s += fig(hrect(330, 190, 540, 340, 2), '#3d434c') + screenFamily(350, 210, 1.25);
+      s += fig('M300,530L900,530L880,560L320,560Z', '#8a9099');
+      s += sfx(760, 170, 'BA! GOO!', 54, C.crimson, 6);
+      return s;
+    },
+    '2b'() { // the tiny bolt on the windowsill
+      let s = halo('#d8e9f2', C.gold);
+      s += wash(hrect(160, 470, 880, 60, 2), '#efe6d6', .95, 'fig') + wash(hrect(180, 140, 840, 330, 2), '#bcd8e8', .7);
+      s += glowAt(780, 462, 80, '#ffd27a', .9) + fig(hrect(762, 452, 36, 9, 1), C.orange) + fig(hrect(756, 446, 9, 20, 1), C.orange);
+      s += line('M780,410l0,-26M808,420l18,-18M752,420l-18,-18', C.gold, 3, .9);
+      s += oscar(470, 640, 2.1, 'point', false);
+      return s;
+    },
+    '3a'() { // the tall version of Daddy
+      let s = halo('#e5dcef', C.blush) + ground(660);
+      s += coatDisguise(470, 660, 1.6);
+      s += fig(hrect(700, 330, 300, 190, 2), '#3d434c') + wash(hrect(712, 342, 276, 160, 1), '#eef2f4', .95, null) + face(850, 410, 30) + fig('M820,416C812,370 836,360 852,360C874,360 890,374 880,418C874,394 864,384 850,386C836,386 826,398 820,416Z', C.ink) + fig('M800,500C808,476 892,476 900,500Z', '#3f4f6b');
+      s += sfx(850, 290, 'BEEP BOOP!', 44, C.orange, -6);
+      return s;
+    },
+    '3b'() { // GG 1937
+      let s = halo('#f1e3cf', C.gold);
+      s += `<circle cx="560" cy="350" r="230" fill="#f7fbfc" fill-opacity=".9" stroke="${C.payne}" stroke-width="22" ${F('fig')}/>` + line('M720,520L900,700', C.sepia, 46, .95);
+      s += fig(hrect(420, 320, 280, 60, 2), C.orange) + fig(hrect(390, 280, 60, 140, 2), C.orange);
+      s += `<text x="560" y="470" text-anchor="middle" font-family="Kalam, cursive" font-weight="700" font-size="64" fill="${C.ink}">GG 1937</text>`;
+      return s;
+    },
+    '4a'() { // Big Lou rings the bell
+      let s = halo('#d8e6f0', C.blush) + ground(680);
+      s += bigLou(520, 680, 2.6);
+      s += line('M700,170L700,250', C.sepia, 5, .9) + fig('M660,320C660,260 740,260 740,320L756,330L644,330Z', C.gold) + circ(700, 340, 12, C.ochre, .95, 'fig');
+      s += sfx(840, 210, 'DING-DING!', 54, C.gold, 6) + line('M770,280l40,-20M775,310l46,0M770,340l40,20', C.gold, 4, .8);
+      return s;
+    },
+    '4b'() { // the cookie bag
+      let s = halo('#efe0cc', C.rose);
+      for (let i = 0; i < 4; i++) s += wash(hrect(200, 470 + i * 34, 800, 26, 2), '#a8784f', .8, 'fig');
+      s += fig('M480,480L470,250C520,236 640,232 720,246L740,480Z', '#e9dcc2') + line('M490,300l50,10M560,280l30,24M650,300l40,-12', C.sepia, 2, .5);
+      s += cookie(605, 380, 1.3, 0);
+      s += samuel(880, 640, 1.9, 'cheer');
+      s += sfx(350, 240, 'CRINKLE!', 52, C.ochre, -8);
+      return s;
+    },
+    '5a'() { // a fortune cookie cracks open
+      let s = halo('#f4dfc0', C.rose);
+      s += cookie(430, 420, 3, -12) + cookie(800, 430, 3, 14);
+      s += fig('M500,330L720,300L726,350L506,380Z', C.white) + line('M530,345l150,-20', C.crimson, 3, .7, null);
+      s += sfx(600, 200, 'CRACK!', 70, C.ochre, -4);
+      return s;
+    },
+    '5b'() { // lanterns over Chinatown
+      let s = halo('#e9cdc8', C.gold);
+      s += line('M120,200Q600,360 1080,200', C.ink, 2, .5);
+      [[220, 250], [420, 300], [600, 318], [780, 300], [980, 250]].forEach(([x, y]) => { s += lantern(x, y + 30, 42); });
+      s += samuel(600, 650, 2, 'cheer') + cookie(450, 620, .9, -10) + cookie(760, 625, .9, 12);
+      return s;
+    },
+    '6a'() { // the Admiral
+      let s = halo('#cfe3ec', C.sky);
+      s += wash(rect(100, 520, 1000, 200), C.cerulean, .5, 'soft');
+      s += seaLion(560, 620, 3.2, '#5c4130');
+      s += `<g transform="translate(-6,46)">` + fig('M720,326L830,326L826,300C800,280 750,280 726,300Z', C.indigo) + fig(hrect(714, 320, 122, 14, 1), C.gold) + '</g>';
+      s += samuel(980, 640, 1.6, 'sword');
+      s += sfx(380, 250, 'ARK! ARK!', 56, C.sepia, -6);
+      return s;
+    },
+    '6b'() { // the boat has gone
+      let s = halo('#d4e4ec', C.lav);
+      s += wash(rect(100, 470, 1000, 260), C.cerulean, .6, 'soft') + brushStrokes(14, [160, 500, 880, 180], C.white, .5, [60, 160], [3, 5]);
+      s += wash(hrect(520, 180, 90, 420, 2), '#8a6243', .95, 'fig') + wash(hrect(500, 170, 130, 26, 2), '#6f4d36', .95, 'fig');
+      s += line('M565,260C640,300 660,380 690,470', '#c9a46b', 9, .95) + line('M690,470l-12,24M690,470l4,26M690,470l16,20', '#c9a46b', 4, .9);
+      s += gull(320, 200, 2) + gull(860, 160, 1.6);
+      return s;
+    },
+    '7a'() { // the big presentation
+      let s = halo('#e8e0d2', C.sky) + ground(660);
+      s += wash(hrect(560, 150, 460, 330, 2), C.white, .95, 'fig') + line('M790,480L790,640M690,640L890,640', C.sepia, 6, .9);
+      s += `<g transform="translate(700,420) scale(1.7)">${dino(60, 0, 1.4, C.sap)}</g>`;
+      s += fig('M840,260L880,240L884,270Z', C.silver) + line('M890,240l40,-60', C.ochre, 6, .9);
+      s += coatDisguise(330, 660, 1.5);
+      s += sfx(580, 118, 'CLAP CLAP!', 42, C.orange, 3);
+      return s;
+    },
+    '7b'() { // rowing in the dark
+      let s = wash(blob(600, 380, 480, 310, .1, 13), '#1d2650', .95, 'soft') + stars(40, [180, 120, 840, 220]);
+      s += glowAt(820, 200, 90, '#fff3cf', .7) + circ(820, 200, 34, '#fbf1d2', .95);
+      s += brushStrokes(16, [200, 470, 800, 160], '#8f9bd0', .45, [50, 160], [2, 4]);
+      s += rowboat(600, 520, 2, '#7a3b2c') + daddy(600, 520, 1.15, 'row', '#3c4a6a');
+      s += glowAt(450, 430, 90, '#fff1b0', .8);
+      s += sfx(600, 640, 'splish… splash…', 40, '#c5cdf0', 0);
+      return s;
+    },
+    '8a'() { // the secret door
+      let s = halo('#d9d0dc', C.lav);
+      for (let r = 0; r < 8; r++) for (let k = 0; k < 7; k++) s += wash(hrect(190 + k * 120 + (r % 2) * 60, 120 + r * 62, 112, 54, 2), r % 3 ? '#b48a72' : '#a57a62', .6, null);
+      s += wash(hrect(470, 220, 260, 420, 3), C.purple, .9, 'fig');
+      [0, 1, 2, 3].forEach(i => { s += wash(hrect(500 + i * 52, 380, 44, 66, 2), C.paper, .95, 'fig') + `<text x="${522 + i * 52}" y="428" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="700" font-size="40" fill="${C.ink}">${'1937'[i]}</text>`; });
+      s += sfx(600, 190, 'CREEEAK!', 54, C.purple, -4);
+      return s;
+    },
+    '8b'() { // the tiny bridge on its cushion
+      let s = wash(blob(600, 380, 470, 300, .1, 13), '#3a2f5c', .9, 'soft') + glowAt(600, 400, 300, '#ffcf8a', .6);
+      s += wash(blob(600, 500, 330, 70, .06, 11), C.crimson, .95, 'fig');
+      s += `<g transform="translate(296,240) scale(.5)">${goldenGate('full')}</g>`;
+      for (let i = 0; i < 4; i++) s += fig(blob(300 + i * 200, 568, 16, 26, .1, 7), C.gold);
+      return s;
+    },
+    '9a'() { // tiny Samuel and the great ginger cat
+      let s = halo('#e9d3b8', C.ochre);
+      s += wash(rect(100, 560, 1000, 160), '#a77a52', .7, 'soft');
+      s += cat(830, 760, 1.6);
+      s += samuel(350, 640, 1.5, 'sword');
+      s += sfx(320, 230, 'meow…?', 50, C.sienna, -6);
+      return s;
+    },
+    '9b'() { // three switches
+      let s = halo('#d6dde3', C.lav);
+      s += wash(hrect(230, 200, 740, 340, 4), '#4a5466', .95, 'fig');
+      s += fig(hrect(310, 300, 140, 140, 3), C.crimson);
+      s += fig('M600,290L680,440L520,440Z', C.cerulean);
+      s += circ(820, 370, 74, C.sap, .95, 'fig');
+      s += sfx(600, 160, 'Which one?', 52, C.ink, 0);
+      return s;
+    },
+    '10a'() { // the perfect kick
+      let s = halo('#e4d6e8', C.gold);
+      s += line('M220,600Q520,140 900,300', C.white, 6, .8, 'soft') + line('M240,610Q520,170 880,310', C.orange, 3, .5);
+      s += football(900, 300, 58);
+      s += oscar(300, 650, 1.6, 'kick', false);
+      s += sfx(820, 170, 'THWACK!', 64, C.orange, 6);
+      return s;
+    },
+    '10b'() { // a lonely professor
+      let s = halo('#dcd3ea', C.blush) + ground(660);
+      s += pinch(450, 660, 1.6);
+      s += fig('M400,420C400,400 460,400 460,420L456,460C450,474 410,474 404,460Z', C.white);
+      s += samuel(760, 660, 1.6, 'stand');
+      s += fig('M720,520C690,500 660,500 640,516', 'none', 0);
+      s += sfx(620, 220, '♥', 80, C.rose, 0);
+      return s;
+    },
+    '11a'() { // the parade
+      let s = halo('#f2d9c2', C.sky);
+      for (let i = 0; i < 60; i++) s += `<rect x="${f1(150 + rnd() * 900)}" y="${f1(80 + rnd() * 400)}" width="10" height="16" fill="${[C.orange, C.gold, C.rose, C.sky, C.sap][i % 5]}" opacity=".8" transform="rotate(${f1(rnd() * 180)} ${f1(150 + rnd() * 900)} ${f1(80 + rnd() * 400)})"/>`;
+      s += cableCar(600, 620, 2.1, 0, oscar(-60, -14, .5, 'cheer', false) + samuel(20, -14, .52, 'cheer') + daddy(100, -14, .45, 'wave'));
+      s += sfx(600, 150, 'HOORAY!', 70, C.orange, -4);
+      return s;
+    },
+    '11b'() { // Rosie and the tiny orange bridge
+      let s = wash(blob(600, 380, 470, 300, .1, 13), '#2c3560', .9, 'soft') + stars(20, [250, 120, 700, 180]) + glowAt(820, 190, 70, '#fff3cf', .6);
+      s += wash(hrect(300, 330, 600, 260, 4), '#d7c3a8', .9, 'fig');
+      for (let i = 0; i < 11; i++) s += line(`M${330 + i * 54},300L${330 + i * 54},600`, '#efe2c8', 10, .95);
+      s += wash(blob(600, 500, 230, 70, .1, 11), C.lav, .9, 'fig') + face(470, 450, 40) + fig(blob(470, 420, 34, 14, .1, 7), C.blush);
+      s += `<g transform="translate(470,330) scale(.26)">${goldenGate('full')}</g>`;
+      s += glowAt(620, 420, 90, '#ffcf8a', .5);
+      return s;
+    }
+  };
+
   /* ---------- the plates ---------- */
   const scenes = {
     1() { // the suitcases giggle
@@ -703,7 +908,7 @@ ${g}${gradDefs}
       // the bakery window
       s += glowAt(600, 520, 330, '#ffcf6a', .8);
       s += wash(hrect(420, 400, 360, 230, 2), '#ffe2a0', .95, 'fig');
-      s += wash(hrect(400, 352, 400, 44, 2), '#2a1f2a', .92, 'fig') + `<text x="600" y="382" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="24" font-weight="700" fill="${C.gold}" letter-spacing="3">GOLDEN FORTUNE BAKERY</text>`;
+      s += wash(hrect(400, 352, 400, 44, 2), '#2a1f2a', .92, 'fig') + `<text x="600" y="382" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="24" font-weight="700" fill="${C.gold}" letter-spacing="3">WU’S FORTUNE COOKIES</text>`;
       s += face(600, 490, 22) + fig('M574,486C570,456 590,448 602,448C618,448 630,458 626,488C622,472 612,466 600,466C588,466 578,474 574,486Z', C.ink) + fig('M566,540C572,518 628,518 634,540L640,600L560,600Z', C.cerulean);
       // lanterns strung across
       s += line('M-40,90Q300,220 640,110Q930,30 1240,140', C.ink, 1.5, .5);
@@ -828,11 +1033,12 @@ ${g}${gradDefs}
     PID = id || ('p' + key);
     rnd = rng(String(key).split('').reduce((a, c) => a * 31 + c.charCodeAt(0), 7));
     grad.clear(); gradDefs = '';
-    const body = key.startsWith('map') ? mapScene(+key.slice(3)) : scenes[key]();
+    const isSpot = key.startsWith('s') && spots[key.slice(1)];
+    const body = key.startsWith('map') ? mapScene(+key.slice(3)) : isSpot ? spots[key.slice(1)]() : scenes[key]();
     const paperRect = "";
     gradDefs += `<radialGradient id="${PID}-light" cx=".3" cy=".25" r=".95"><stop offset="0" stop-color="#fff6e0" stop-opacity="0"/><stop offset=".6" stop-color="#e9c9a0" stop-opacity=".18"/><stop offset="1" stop-color="#6b4a5a" stop-opacity=".55"/></radialGradient>`;
     const glaze = `<rect x="-40" y="-40" width="${W + 80}" height="${H + 80}" fill="url(#${PID}-light)" style="mix-blend-mode:multiply"/>`;
-    return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid meet">${defs()}<rect width="${W}" height="${H}" fill="${C.paper}"/><g mask="url(#${PID}-m)">${body}${glaze}</g>${paperRect}</svg>`;
+    return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid meet">${defs()}<rect width="${W}" height="${H}" fill="${C.paper}"/><g mask="url(#${PID}-${isSpot ? 'v' : 'm'})">${body}${isSpot ? '' : glaze}</g>${paperRect}</svg>`;
   }
   window.Paint = { paint, W, H };
 })();
